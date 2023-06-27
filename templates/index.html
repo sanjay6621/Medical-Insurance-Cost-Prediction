@@ -1,0 +1,89 @@
+<html>   
+   <head>
+    <center><h1>Medical Insurance Cost Prediction</h1></center>
+
+
+    <style media="screen">
+      span{
+        color:red;
+      
+   }
+     .div1{
+      background-color: rgba(110, 201, 219, 0.939);
+       border:1px solid rgb(253, 255, 253);
+       width:50%;
+       height:350px;
+       background-position: center;
+     }
+     main{
+       background-color: aquamarine;
+     }
+
+   </style>
+    
+</head>
+
+   <center>
+   
+    <div class="div1">
+      <p><center>This is a web application for predicting the medical insurance</center> </p>
+      <center>
+          <form action = "/login" method = "post">
+      
+              <center><label for="age">AGE : </label>
+                  <input type="number" name="ag" ></center>  <br>
+              
+              <label for = "sex" >  choose the gender :  </label> 
+              <select name = "s">
+              <option Value = "0">Male</option>
+              <option Value = "1">Female</option>
+              </select>   <br>
+      
+              <br>
+              
+              <center><label for="bmi">BMI : </label>
+                  <input type="text" name="bm" ></center>  <br>
+             
+              
+                  <center><label for="children">CHILDREN : </label>
+                      <input type="text" name="ch" ></center>  <br>
+              
+              
+              <label for = "smoker" >  Choose the Option :  </label>
+              <select name = "sm">
+              <option Value = "0">Yes</option>
+              <option Value = "1">No</option>
+              </select>
+              
+              <br>
+              <br>
+              
+              
+              <label for = "region" >  Choose the Region : </label>
+              <select name = "rg">
+              
+              <option Value = "0">Southeast</option>
+              <option Value = "1">Southwest</option>
+              <option Value = "2">Northeast</option>
+              <option Value = "3">Northwest</option>
+              
+              </select>
+              
+              
+              <p><input type = "submit" value = "submit" /> </p>
+      
+          </form>
+          <b>{{Y}}</b>
+      </center>
+  </div>
+   </center> 
+
+
+
+</body>
+</html>
+
+
+
+
+
