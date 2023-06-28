@@ -1,7 +1,7 @@
 from flask import Flask , render_template , request
 app = Flask(__name__) # interface between my server and my application 
 import pickle
-model = pickle.load(open('/Users/sanjaytulabandula/Desktop/DataScience Project/model.pkl' , 'rb'))
+model = pickle.load(open('/Users/sanjaytulabandula/Desktop/DataScienceProject/model.pkl' , 'rb'))
 
 @app.route('/')# binds to an url
 def helloworld():
